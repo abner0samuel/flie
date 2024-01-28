@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.contener{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin:auto ;
+    margin-top: 10%;
+    perspective: 500px;
+}
+.inside{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    transform: rotateY(-45deg);
+    transition: all 3s ease; 
+}
+.inside:hover {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    transform: rotateY(400deg);
+    transition: all 3s ease;
+}
